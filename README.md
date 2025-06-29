@@ -48,52 +48,28 @@ npm --version     # Should show npm version
 
 ## Installation
 
-### 1. Clone or Download the Project
+### Option A: Clone from Repository (Recommended)
 
-Create a new directory for your MCP server:
+If this project is in a Git repository:
 
+```bash
+git clone https://github.com/yourusername/mcp-reports-server.git
+cd mcp-reports-server
+```
+
+### Option B: Manual Setup
+
+If you're setting this up manually:
+
+1. Create a new directory:
 ```bash
 mkdir reports-mcp-server
 cd reports-mcp-server
 ```
 
-### 2. Create Project Files
+2. Copy the provided `package.json`, `server.js`, and `README.md` files into this directory.
 
-Create the following files in your project directory:
-
-**package.json:**
-```json
-{
-  "name": "mcp-reports-server",
-  "version": "0.1.0",
-  "description": "MCP server for accessing reports API",
-  "main": "server.js",
-  "type": "module",
-  "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^0.4.0",
-    "axios": "^1.6.0"
-  },
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "keywords": [
-    "mcp",
-    "server",
-    "reports",
-    "api"
-  ],
-  "author": "",
-  "license": "MIT"
-}
-```
-
-**server.js:** (Copy the complete server code provided)
-
-### 3. Install Dependencies
+### Install Dependencies
 
 ```bash
 npm install
@@ -103,7 +79,7 @@ This will install:
 - `@modelcontextprotocol/sdk`: The MCP SDK for Node.js
 - `axios`: HTTP client for making API requests
 
-### 4. Test the Server
+### Test the Server
 
 ```bash
 npm start
