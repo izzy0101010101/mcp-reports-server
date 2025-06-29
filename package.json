@@ -1,0 +1,27 @@
+{
+    "name": "mcp-reports-server",
+    "version": "0.1.0",
+    "description": "MCP server for accessing reports API",
+    "keywords": [
+        "mcp",
+        "server",
+        "reports",
+        "api"
+    ],
+    "license": "MIT",
+    "author": "",
+    "type": "module",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "node server.js"
+    },
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^0.4.0",
+        "axios": "^1.6.0"
+    },
+    "devDependencies": {},
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}
