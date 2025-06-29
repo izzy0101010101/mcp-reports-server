@@ -48,28 +48,14 @@ npm --version     # Should show npm version
 
 ## Installation
 
-### Option A: Clone from Repository (Recommended)
-
-If this project is in a Git repository:
+### 1. Clone this Repository
 
 ```bash
 git clone https://github.com/yourusername/mcp-reports-server.git
 cd mcp-reports-server
 ```
 
-### Option B: Manual Setup
-
-If you're setting this up manually:
-
-1. Create a new directory:
-```bash
-mkdir reports-mcp-server
-cd reports-mcp-server
-```
-
-2. Copy the provided `package.json`, `server.js`, and `README.md` files into this directory.
-
-### Install Dependencies
+### 2. Install Dependencies
 
 ```bash
 npm install
@@ -79,7 +65,7 @@ This will install:
 - `@modelcontextprotocol/sdk`: The MCP SDK for Node.js
 - `axios`: HTTP client for making API requests
 
-### Test the Server
+### 3. Test the Server
 
 ```bash
 npm start
