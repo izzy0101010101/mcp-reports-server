@@ -51,7 +51,7 @@ npm --version     # Should show npm version
 ### 1. Clone this Repository
 
 ```bash
-git clone https://github.com/yourusername/mcp-reports-server.git
+git clone https://github.com/izzy0101010101/mcp-reports-server.git
 cd mcp-reports-server
 ```
 
