@@ -99,7 +99,7 @@ Add the server to your Claude Desktop MCP configuration file:
   "mcpServers": {
     "reports-server": {
       "command": "node",
-      "args": ["/full/path/to/your/reports-mcp-server/server.js"],
+      "args": ["/full/path/to/your/mcp-reports-server/server.js"],
       "env": {
         "REPORTS_JWT_TOKEN": "your_actual_jwt_token_here"
       }
