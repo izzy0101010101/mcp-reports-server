@@ -109,7 +109,7 @@ Add the server to your Claude Desktop MCP configuration file:
 ```
 
 **Important Notes:**
-- Replace `/full/path/to/your/reports-mcp-server/server.js` with the actual full path to your server.js file
+- Replace `/full/path/to/your/mcp-reports-server/server.js` with the actual full path to your server.js file
 - Replace `your_actual_jwt_token_here` with your real JWT token
 - Use forward slashes `/` in paths, even on Windows
 
